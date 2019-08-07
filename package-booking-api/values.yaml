@@ -29,7 +29,7 @@ ingress:
   annotations: 
     kubernetes.io/ingress.class: traefik
   hosts:
-    - host: "mycluster.package-booking-api:30002"
+    - host: mycluster.package-booking-api
       paths: 
         - /
      
