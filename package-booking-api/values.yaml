@@ -32,5 +32,8 @@ ingress:
     - host: mycluster.package-booking-api
       paths: 
         - /
-     
+  status:
+    loadBalancer:
+      ingress:
+        - hostname: mycluster.package-booking-api
 
