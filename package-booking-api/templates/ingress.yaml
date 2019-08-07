@@ -36,5 +36,4 @@ spec:
 {{- end }}
 status:
   loadBalancer:
-    ingress:
-      - hostname: mycluster.package-booking-api
+    ingress: mycluster.package-booking-api
