@@ -34,6 +34,4 @@ spec:
         {{- end }}
   {{- end }}
 {{- end }}
-status:
-  loadBalancer:
-    ingress: mycluster.package-booking-api
+
